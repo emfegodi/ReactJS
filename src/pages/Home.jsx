@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from '../components/Header';
-import ProductDetail from '../containers/ProductDetail';
+import ProductItem from '../components/ProductItem';
+import ProductList from '../containers/ProductList';
 
 const Home = () => {
     return (
-        <ProductDetail />
+        <ProductItem />
     );
 };
 
